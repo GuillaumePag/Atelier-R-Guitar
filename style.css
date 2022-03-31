@@ -1,0 +1,289 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.logo {
+  width: 50%;
+}
+
+.groscoucou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  color: #b04849;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: #b04849;
+  background-color: transparent;
+}
+
+.button2 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  border: none;
+  background-color: #b04849;
+  max-width: 100px;
+  margin: 0 auto;
+}
+header {
+  background-color: #f2f2f2;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  text-align: end;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+#navbar li {
+  display: inline;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+#navbar li a {
+  color: black;
+  text-decoration: none;
+}
+
+#navbar li button a {
+  color: #b04849;
+  text-decoration: none;
+}
+
+.pageprincipal {
+  color: white;
+  background-image: url("ressources/images/bakground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  border-top: solid 10px;
+  border-color: #b04849;
+  position: relative;
+}
+
+.pageprincipal h1 {
+  position: absolute;
+  bottom: 150px;
+  right: 50px;
+}
+
+.titrePrincipalP2::before {
+  content: "";
+  display: inline-block;
+  width: 160px;
+  height: 4px;
+  background-color: aliceblue;
+  margin: 0 15px;
+}
+
+.titrep2 {
+  background-color: #b04849;
+  color: white;
+  padding: 30px;
+}
+
+.boiteParagrapheX3 {
+  display: flex;
+}
+
+.Gauche {
+  line-height: 40px;
+  display: inline;
+  justify-content: center;
+  width: 71%;
+  margin: 50px;
+}
+
+.Gauche h2 {
+  text-align: start;
+}
+
+.gauchet1::after {
+  content: "";
+  display: inline-block;
+  width: 630px;
+  height: 4px;
+  background-color: #b04849;
+  margin-bottom: 7px;
+  margin-left: 10px;
+}
+
+.gauchet1b::after {
+  content: "";
+  display: inline-block;
+  width: 700px;
+  height: 4px;
+  background-color: #b04849;
+  margin-bottom: 7px;
+  margin-left: 10px;
+}
+
+.gauchet2 h2::before {
+  content: "";
+  display: inline-block;
+  width: 680px;
+  height: 4px;
+  background-color: #b04849;
+  margin-bottom: 7px;
+  margin-right: 10px;
+}
+
+.gauchet2 h2 {
+  text-align: end;
+}
+
+.boiteimages img {
+  width: 100%;
+}
+
+.boiteimages {
+  width: 50%;
+  margin: 50px;
+}
+
+.petiteboite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.gaucheimage {
+  width: 60%;
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+.droiteimage {
+  width: 50%;
+  display: inline-flex;
+}
+
+.img {
+  /* display: inline-block; */
+  text-align: center;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sousimage {
+  width: 100%;
+}
+
+.titrep3 {
+  background-color: #b04849;
+  color: white;
+  padding: 30px;
+  text-align: end;
+}
+
+.formutitre {
+  text-align: center;
+  margin: 90px;
+}
+.formutitre h2::before {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  background-color: #b04849;
+  margin-bottom: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px;
+}
+
+.paraguitare {
+  line-height: 40px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.paraguitare h2::after {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 4px;
+  background-color: #b04849;
+  margin-bottom: 5px;
+}
+
+.Vente {
+  display: flex;
+  justify-content: center;
+}
+
+.Vente img {
+  /* width: 60%; */
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 80px;
+  height: 275px;
+}
+
+.finformu input {
+  display: flex;
+  border: solid 2px #b04849;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 7px;
+}
+
+.fourmuBoite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+textarea {
+  border: solid 2px #b04849;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.formuligne1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.formuligne2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 8%;
+}
+
+.formuligne3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 150px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
